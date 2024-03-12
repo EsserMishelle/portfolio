@@ -76,14 +76,14 @@ export default function Project() {
         {/* <!--  tic Tac Toe--> */}
       </div>
       {/* <!-- show all --> */}
-      <a
+      {/* <a
         href="https://codepen.io/FreeCodeCamp/"
         className="btn btn-show-all"
         target="_blank"
         rel="noopener noreferrer"
       >
         Show all<i className="fas fa-chevron-right"></i>
-      </a>
+      </a> */}
     </section>
   );
 }
