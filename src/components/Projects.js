@@ -22,9 +22,9 @@ export default function Project() {
             <span className="code">&#47;&gt;</span>
           </p>
           <div className="project-description">
-            Designed an online ordering system Pro Bono for a local restaurant.
-            Collaborated with team members and stakeholders, Created in MERN
-            Stack
+            Designed an online ordering system for a local restaurant.
+            Collaborated with team members and stakeholders, created in MERN
+            Stack using JSONWebToken
           </div>
         </a>
         {/* <!--     BAM weather --> */}
@@ -44,6 +44,10 @@ export default function Project() {
             Brianna, Anna, Mishelle Weather
             <span className="code">&#47;&gt;</span>
           </p>
+          <div className="project-description">
+            Built a frontend weather app using React, CSS, HTML, Bootstrap,
+            collaborated with team members using GitHub tools and actions.
+          </div>
         </a>
         {/* <!--     MyTrip123 Travel weather --> */}
         <a
@@ -62,22 +66,36 @@ export default function Project() {
             MyTrip123 Travel & Lodging App
             <span className="code">&#47;&gt;</span>
           </p>
+          <div className="project-description">
+            Built a frontend traveling app using React, CSS, HTML, Bootstrap,
+            fetch API, React hooks
+          </div>
         </a>
-        {/* <!--     random quotes generator --> */}
-
-        {/* <!--     calculator --> */}
-
-        {/* <!--     map data --> */}
-
-        {/* <!--     wikipedia --> */}
-
-        {/* <!-- tribute --> */}
-
-        {/* <!--  tic Tac Toe--> */}
+        {/* <!--     qr code maker --> */}
+        <a
+          href="https://make-qr-code-mishelle.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project project-tile"
+        >
+          <img
+            className="project-image"
+            src="https://res.cloudinary.com/drtgrgcsq/image/upload/v1710428022/qrcode-thumbnail_psruh1.jpg"
+            alt="make qr code logo"
+          />
+          <p className="project-title">
+            <span className="code">&lt;</span>
+            QR Code Maker
+            <span className="code">&#47;&gt;</span>
+          </p>
+          <div className="project-description">
+            Using React hooks and libraries, a QR code generator is created.
+          </div>
+        </a>
       </div>
       {/* <!-- show all --> */}
       {/* <a
-        href="https://codepen.io/FreeCodeCamp/"
+        href="https://essermishelle/showAll/"
         className="btn btn-show-all"
         target="_blank"
         rel="noopener noreferrer"
