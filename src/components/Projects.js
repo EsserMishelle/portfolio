@@ -13,6 +13,45 @@ export default function Project() {
         }}
       >
         {/* starting of the grid */}
+        {/* Data Analytics: Bellabeat */}
+
+        <a
+          href="https://medium.com/@essermishelle/bellabeat-wellness-tracker-analysis-038c54ae6459/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project project-tile"
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            width: "90%", // Adjust width to control card width
+            margin: "20px",
+            boxShadow: "0 4px 8px rgba(0,0,0,0.1)", // Optional: Adding some shadow for card effect
+            textDecoration: "none", // Remove underline from links
+          }}
+        >
+          <img
+            className="project-image"
+            src="https://res.cloudinary.com/drtgrgcsq/image/upload/v1720411241/Dashboard_ekgw8r.jpg"
+            alt="Bellabeat Tableau Dashboard thumbnail"
+            style={{ width: "100%", height: "auto" }} // Make image responsive
+          />
+          <p className="project-title">
+            <span className="code">&lt;</span>
+            Bellabeat Fitness Tracker Analysis
+            <span className="code">&#47;&gt;</span>
+          </p>
+          <div className="project-description">
+            As part of the Google Data Analytics Certificate, I completed a
+            project on Bellabeat's fitness trackers, using tools like Google
+            Cloud, SQL, R, and Tableau. This analysis revealed how Bellabeat
+            devices can enhance fitness routines and empower women, sharpening
+            my analytical skills and highlighting the power of data in the
+            fitness industry.
+          </div>
+        </a>
+
+        {/* <!--     Ramen-Talk Fullstack --> */}
         <a
           href="https://ramen-talk.netlify.app/"
           target="_blank"
@@ -45,6 +84,7 @@ export default function Project() {
             Stack using JSONWebToken
           </div>
         </a>
+
         {/* <!--     Employee Fullstack Database --> */}
         <a
           href="https://www.loom.com/share/6f6c417c658040ab8718cf2dbe194eac?utm_medium=gif"
